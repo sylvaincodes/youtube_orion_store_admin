@@ -29,6 +29,9 @@ export default [
       "cypress/*",
       "cypress.config.ts",
       "tailwind.config.ts",
+      "__tests__/*",
+      "babel.config.js",
+      "jest.config.ts"
     ],
   },
 ];
