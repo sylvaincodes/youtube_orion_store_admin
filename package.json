@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "cross-env NODE_ENV=development && next dev",
+    "build": "cross-env NODE_ENV=production && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress": "cross-env NODE_ENV=test && cypress open",
+    "test": "cypress run",
+    "test:e2e": "start-server-and-test dev http://localhost:3000 cypress"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
@@ -17,6 +20,7 @@
     "next": "15.0.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "start-server-and-test": "^2.0.8",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7"
   },
@@ -25,6 +29,8 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "cross-env": "^7.0.3",
+    "cypress": "^13.16.1",
     "eslint": "^8.57.1",
     "eslint-config-next": "15.0.4",
     "eslint-plugin-react": "^7.37.2",
