@@ -2,14 +2,12 @@ name: Vercel Prod Deployment
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID_PROD }}
-on:
-  push:
-    branches:
-      - production
 
-  pull_request:
-    branches:
-      - production
+on:
+    release:
+      types: [published]
+    workflow_dispatch:
+
 jobs:
   Deploy-Preview:
     runs-on: ubuntu-latest
