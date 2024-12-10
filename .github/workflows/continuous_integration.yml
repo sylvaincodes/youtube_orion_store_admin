@@ -23,6 +23,13 @@ jobs:
         - name: Run typescript
           run: npm i -g typescript && tsc
 
+        - name: Run Jest tests
+          run: npm run test
+
+        #Cypress Testing component only support React18 downgrade to Next14 required
+        - name: Run Cypress Testing Components 
+          run: npm run test:component
+        
         - name: Run eslint
           run: npm run lint
 
