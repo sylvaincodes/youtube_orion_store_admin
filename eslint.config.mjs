@@ -8,8 +8,6 @@ export default [
   { files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"] },
   {
     languageOptions: { globals: globals.browser },
-
-    //React version 
     settings: {
       react: {
         version: "detect",
@@ -20,14 +18,16 @@ export default [
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
 
-  //ignores some files and folders
   {
     ignores: [
       ".next",
       "node_modules",
+      "coverage",
       "tailwind.config.ts",
       "hooks/*",
       "components/ui/*",
+      "cypress/*",
+      "cypress.config.ts",
     ],
   },
 ];

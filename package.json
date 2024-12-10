@@ -6,7 +6,8 @@
     "dev": "cross-env NODE_ENV=development && next dev",
     "build": "cross-env NODE_ENV=production && next build",
     "start": "next start",
-    "lint": "next lint",
+    "prebuild": "npm run lint",
+    "lint": "eslint .",
     "cypress": "cross-env NODE_ENV=test && cypress open",
     "test": "cypress run",
     "test:e2e": "start-server-and-test dev http://localhost:3000 cypress"
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",
+    "@next/eslint-plugin-next": "^15.0.4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
