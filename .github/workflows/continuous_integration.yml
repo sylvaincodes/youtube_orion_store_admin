@@ -1,4 +1,4 @@
-name: C_I
+name: CI
 on:
   push:
     branches: [ master ]
@@ -47,7 +47,7 @@ jobs:
           run:  npm ci
 
         - name: Build app
-          uses: npm run build
+          run: npm run build
 
         - name: Run Cypress Tests
           uses: cypress-io/github-action@v6
