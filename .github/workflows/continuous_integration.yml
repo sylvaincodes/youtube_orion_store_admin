@@ -31,7 +31,7 @@ jobs:
       needs: lint  #lint need to completely finished with success before run this
       env:
         MONGO_URI: ${{ secrets.MONGO_URI }}
-        NEXT_PUBLI_API_URL: http://localhost:3000
+        NEXT_PUBLI_API_URL: 'http://localhost:3000'
 
       steps:
         - name: Checkout
@@ -54,7 +54,7 @@ jobs:
           with: 
                 build: npm run build
                 start: npm start
-                wait-on: http://localhost
+                wait-on: 'http://localhost:3000'
                 browser: chrome
                 config-file: #setup cypress
                 record: false
