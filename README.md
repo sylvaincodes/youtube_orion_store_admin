@@ -4,6 +4,8 @@
   <a href="https://orion-api-five.vercel.app/">Admin</a>
 </h1>
 
+<br/>
+
 <div id="badges">
   <a href="https://www.patreon.com/sylvaincodes">
     <img src="https://img.shields.io/badge/Patreon-black?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon Badge"/>
@@ -15,7 +17,7 @@
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=x&logoColor=white" alt="Twitter Badge"/>
   </a>
   <a href="https://stackoverflow.com/users/20458049/sylvain-codes">
-    <img src="https://img.shields.io/badge/Stacko.-orange?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Twitter Badge"/>
+    <img src="https://img.shields.io/badge/Stackoverflow-orange?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
 
@@ -24,7 +26,7 @@
 </div>
 
 
-# Learning Frontend developement with Nextjs - Full Course.
+# Learn Frontend development with Nextjs - Full Course.
 
 
 ## ✔️ Introduction
@@ -160,11 +162,12 @@ Node.js 20.x or later installed.
 Operating systems: macOS, Windows (including WSL), or Linux.
 
 VSCode or another text editor of your choice.
+
 <br/>
 
 
 
-## DOWNLOAD ASSETS
+## ASSETS
 
 🟢Online Store Website ORION MULTI VENDOR
 
