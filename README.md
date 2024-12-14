@@ -1,22 +1,22 @@
 <h1 align="center">
-  <a href="https://orion-store-prod.vercel.app">Store</a>
+  <a target="_blank" href="https://orion-store-prod.vercel.app">Store</a>
   <img src="./public/assets/images/logo_dark.svg" alt="Orion">
-  <a href="https://orion-api-five.vercel.app/">Admin</a>
+  <a target="_blank" href="https://orion-api-five.vercel.app/">Admin</a>
 </h1>
 
 <br/>
 
 <div id="badges">
-  <a href="https://www.patreon.com/sylvaincodes">
+  <a target="_blank" href="https://www.patreon.com/sylvaincodes">
     <img src="https://img.shields.io/badge/Patreon-black?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon Badge"/>
   </a>
-  <a href="https://www.youtube.com/@sylvaincodes593">
+  <a target="_blank" href="https://www.youtube.com/@sylvaincodes593">
     <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
   </a>
-  <a href="https://twitter.com/sylvaincodes">
+  <a target="_blank" href="https://twitter.com/sylvaincodes">
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=x&logoColor=white" alt="Twitter Badge"/>
   </a>
-  <a href="https://stackoverflow.com/users/20458049/sylvain-codes">
+  <a target="_blank" href="https://stackoverflow.com/users/20458049/sylvain-codes">
     <img src="https://img.shields.io/badge/Stackoverflow-orange?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
